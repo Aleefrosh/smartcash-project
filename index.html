@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./src/output.css" rel="stylesheet">
-  <title>Smartcash</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>SmartCash PSB || Home</title>
 </head>
-<body class="text-inherit p-0 m-0">
+<body class="p-0 m-0" style="font-family: font-family: 'Inter', sans-serif;">
   <header>
     <nav class="lg:flex lg:items-center lg:pl-[50px] lg:h-[100px] lg:justify-start lg:gap-[20px] hidden fixed top-0 left-0 w-full bg-white z-50">
       <a href="./index.html"><img class="h-[50px] w-[210px] cursor-pointer" src="./images/asset 1.svg" alt="" ></a>
-      <a href="./products.html"><h5 class="font-semibold hover:text-red-500 cursor-pointer text-[16px]">Products & services</h5></a>
+      <a href="index.html#products"><h5 class="font-semibold hover:text-red-500 cursor-pointer text-[16px]">Products & services</h5></a>
       <a href="./locate.html"><h5 class="font-semibold hover:text-red-500 cursor-pointer text-[16px]" >Locate an agent</h5></a>
       <a href="./help.html"><h5 class="font-semibold hover:text-red-500 cursor-pointer text-[16px]">Help & support</h5></a>
       <a href="./aboutus.html"><h5 class="font-semibold hover:text-red-500 cursor-pointer text-[16px]">About us</h5></a>
@@ -20,62 +22,101 @@
 
   <!-- header-section -->
 
-  <div class=" md:hidden flex h-[65px] w-full pl-[30px] justify-start items-center">
+  <div class=" md:hidden flex h-[65px] bg-white fixed top-0 left-0 z-50 w-full pl-[30px] justify-start items-center">
     <img class="" src="./images/asset 0.svg" alt="">
     <img class="h-[36px] mr-[50px] w-[180px]" src="./images/asset 1.svg" alt="">
   </div>
 
   <!-- responsive-header -->
 
-  <section class="flex  md:flex-row flex-col-reverse mt-[20px] md:mt-[110px] md:pl-[50px] justify-center items-center md:gap-[170px] md:pb-[300px] ">
+  <section class="flex  md:flex-row flex-col-reverse mt-[70px] pb-[50px] md:mt-[110px] md:pl-[70px] justify-center items-center md:gap-[170px]">
     <div class=" flex flex-col mt-[24px] md:mt-0 ">
       <img class="md:h-[120px] md:w-[215px] w-[160px] ml-[60px] md:ml-0 h-[90px]" src="./images/asset 3.jpeg" alt="">
       <h1 class="md:text-[45px] text-[22px] md:text-left w-[350px] text-center mx-auto md:w-[500px] font-bold">There are always more reasons to transact</h1>
       <p class="md:text-[36px] text-center md:text-left text-[24px] mt-[15px] text-red-500 font-bold">Dial *939# <span class="text-blue-500 font-normal">to get started</span></p>
-      <div class="flex items-center mt-[10px] justify-start gap-[17px]">
+      <div class="flex md:flex-row flex-col items-start mt-[10px] justify-start gap-[17px]">
         <button class="h-[50px] font-semibold text-[17px] mr-[27px] w-[230px] text-white bg-black rounded-full">Download app now</button>
+        <div class="flex gap-[14px]">
         <img src="./images/asset 4.jpeg" alt="">
         <img src="./images/asset 5.jpeg" alt="">
+        </div>
       </div>
     </div>
     <div class="md:pr-[50px]">
       <img class="md:h-[400px] md:w-[570px] h-[255px] w-[340px]" src="./images/asset 6.jpeg" alt="">
     </div>
   </section>
+    <p id="products" class="text-white">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ea magni repellat corporis sed quasi, culpa ex inventore harum non molestias, exercitationem magnam illo. Distinctio inventore ratione doloremque in voluptatem?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tenetur vel quas sunt iure odit cum repellendus inventore cupiditate provident aliquam, voluptates totam libero ipsa, fugit magni mollitia dolore tempora.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto magni ipsa sit, obcaecati eaque distinctio perferendis nemo eius modi soluta ipsum recusandae similique nisi repellendus omnis quaerat. Excepturi, autem cumque!
+    </p>
   
   <div class="flex justify-center items-center md:gap-[40px] fixed bottom-0 left-0 bg-white z-50 px-4 py-3 md:h-[66px] w-full">
-    <p class="md:w-[830px] w-[260px]">This website uses cookies and third-party services to improve your browsing experience and analyze website traffic.</p>
-    <button class="h-[36px] font-semibold  text-[16px] w-[190px] text-white bg-black rounded-full">Accept & Continue</button>
+    <p class="md:w-[830px] md:ml-0 md:text-[16px] text-[13px] w-[200px]">This website uses cookies and third-party services to improve your browsing experience and analyze website traffic.</p>
+    <button class="h-[36px] font-semibold  text-[14px] md:text-[16px] w-[190px] text-white bg-black rounded-full">Accept & Continue</button>
   </div>
 
     <!-- first-section -->
 
-     <section>
-      <h1>A new kind of Bank</h1>
-      <p>With everything money in one place, you can make day-to-day spending a breeze.</p>
-      <div>
-        <div>
-          <img src="" alt="">
-          <h2>Send Money</h2>
-          <p>Send money to Smartcash wallet, accounts, other banks and mobile number</p>
+     <section class="pt-[37px] pb-[37px] bg-gray-50">
+      <h1 class="md:text-[35px] text-[20px] md:text-left md:ml-[55px] text-center font-bold md:font-semibold">A new kind of Bank</h1>
+      <p class="text-center mx-auto md:mx-0 mt-[8px] md:mt-0 md:ml-[55px] w-[370px] md:w-[620px] text-[14px] md:text-[17px] md:text-left">With everything money in one place, you can make day-to-day spending a breeze.</p>
+      <div class="flex flex-col md:flex-row gap-[25px] mt-[50px]  items-center justify-center">
+        <div class="flex gap-[25px] items-center justify-center">
+          <div class="gap-[10px] shadow-2xl  hover:bg-[#EC1B24] rounded-2xl md:rounded-none items-center justify-center hover:text-white flex flex-col bg-white  w-[45%] h-fit p-[15px] lg:p-0 lg:w-[295px] lg:h-[220px] lg:items-start">
+            <img class="lg:ml-[32px] w-[38px]" src="./images/asset 7.svg" alt="">
+            <h2 class="font-bold md:ml-[32px] text-[15px]  lg:text-[20px]">Send Money</h2>
+            <p class="md:ml-[32px] text-[15px] md:text-left text-center w-[170px] md:w-[240px]">Send money to Smartcash wallet, accounts, other banks and mobile number</p>
+          </div>
+          <div class="gap-[10px] shadow-2xl  hover:bg-[#EC1B24] md:rounded-none rounded-2xl hover:text-white flex flex-col bg-white items-center justify-center w-[45%] h-fit p-[15px] lg:p-0 lg:w-[295px] lg:h-[220px] lg:items-start">
+            <img class="lg:ml-[32px] w-[38px]" src="./images/asset 7.svg" src="./images/asset 8.svg" alt="">
+            <h2 class="font-bold lg:ml-[32px] text-[15px]  lg:text-[20px]">Recieve Money</h2>
+            <p class="md:ml-[32px] text-[15px] md:text-left text-center w-[170px] md:w-[240px]">Receive money from any bank in Nigeria into your smartcash wallet and account</p>
+          </div>
         </div>
-        <div>
-          <img src="" alt="">
-          <h2>Recieve Money</h2>
-          <p>Receive money from any bank in Nigeria into your smartcash wallet/account</p>
-        </div>
-        <div>
-          <img src="" alt="">
-          <h2>Buy Airtime</h2>
-          <p>Out of airtime? buy airtime from your wallet and account</p>
-        </div>
-        <div>
-          <img src="" alt="">
-          <h2>Withdrawal</h2>
-          <p>With money loaded in your SmartCash account, it takes minute to withdrawal cash!</p>
+        <div class="flex gap-[25px] items-center justify-center">
+          <div class="gap-[20px] shadow-2xl  hover:bg-[#EC1B24] rounded-2xl md:rounded-none items-center justify-center hover:text-white flex flex-col bg-white  w-[45%] h-fit p-[15px] lg:p-0 lg:w-[295px] lg:h-[220px] lg:items-start">
+            <img class="lg:ml-[32px] h-[38px] w-[38px]" src="./images/asset 9.svg" alt="">
+            <h2 class="font-bold md:ml-[32px] text-[15px]  lg:text-[20px]">Buy Airtime</h2>
+            <p class="md:ml-[32px] text-[15px] md:text-left text-center w-[170px] md:w-[240px]">Out of airtime? buy airtime from your wallet and account</p>
+          </div>
+          <div class="gap-[10px] shadow-2xl  hover:bg-[#EC1B24] rounded-2xl md:rounded-none items-center justify-center hover:text-white flex flex-col bg-white  w-[45%] h-fit p-[15px] lg:p-0 lg:w-[295px] lg:h-[220px] lg:items-start">
+            <img class="lg:ml-[32px] w-[38px]" src="./images/asset 10.svg" alt="">
+            <h2 class="font-bold md:ml-[32px] text-[15px]  lg:text-[20px]">Withdrawal</h2>
+            <p class="md:ml-[32px] text-[15px] md:text-left text-center w-[170px] md:w-[240px]">With money loaded in your SmartCash account, it takes minute to withdrawal cash!</p>
+          </div>
         </div>
       </div>
-      <button>Show More</button>
+      <button class="h-[40px] mt-[30px] w-[140px] flex justify-center items-center mx-auto border border-black font-bold text-[14px]  rounded-full">Show More</button>
+     </section>
+
+    <section>
+      <div class="flex justify-center mt-[70px] items-center flex-col gap-[7px]">
+        <hr class="h-[5px] w-[100px] bg-[#EC1B24]">
+        <p class="text-[26px] font-semibold">Who are we</p>
+      </div>
+      
+      <div class="mt-[70px] flex justify-center mx-auto  ">
+        <div class="w-[850px] relative left-[50px] gap-[25px] top-[80px] h-[280px] flex flex-col justify-center items-start bg-white shadow-2xl">
+          <h1 class="font-semibold  ml-[27px] mt-[-20px] text-[26px]">SmartCash Payment Service Bank</h1>
+           <p class="w-[790px] mx-auto text-[18px] text-left">SmartCash Payment Service Bank brings banking and financial solutions to your fingertips with real ease and lots of fun. Whether you are in the remotest community in the North or the furthest town in the West, it doesn’t really matter as you can now transfer funds, receive funds and pay bills through your phone line. No bank account required and you do not need to visit any bank’s branch. With your phone line or mobile device, you can use our self-care app, USSD or Web Channels for all your transactions and our agents are everywhere to support you.</p>
+        </div>
+       <div>
+          <img class="w-[400px] h-[440px]" src="./images/asset 12.png" alt="">
+        </div>
+      </div>
+    </section>
+
+     <section class="mt-[200px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid, quas asperiores eum eveniet quod explicabo, possimus vel laudantium optio ea delectus velit tenetur, quisquam numquam itaque repudiandae cum similique?
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ea magni repellat corporis sed quasi, culpa ex inventore harum non molestias, exercitationem magnam illo. Distinctio inventore ratione doloremque in voluptatem?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tenetur vel quas sunt iure odit cum repellendus inventore cupiditate provident aliquam, voluptates totam libero ipsa, fugit magni mollitia dolore tempora.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto magni ipsa sit, obcaecati eaque distinctio perferendis nemo eius modi soluta ipsum recusandae similique nisi repellendus omnis quaerat. Excepturi, autem cumque!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem dolorem nihil magnam beatae fugit molestiae ad, delectus, necessitatibus molestias non possimus nemo laboriosam vel commodi vero esse quaerat eaque.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae blanditiis ab quasi omnis voluptatibus. Ut iusto voluptas praesentium possimus sequi doloribus dolorem animi! Ab quisquam voluptatibus dicta, unde rerum accusamus.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quis vitae similique aliquid saepe architecto at, obcaecati, ipsum rerum voluptas modi, omnis dolore qui nihil quae veritatis suscipit harum adipisci.
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti veniam eveniet recusandae ipsam obcaecati, ipsum a voluptatibus fugit voluptates consequuntur molestias culpa ullam omnis quasi, itaque quis soluta ducimus fuga?
+
      </section>
   </h1>
 </body>
